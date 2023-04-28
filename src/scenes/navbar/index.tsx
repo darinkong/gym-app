@@ -16,12 +16,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
   const flexBetween = "flex items-center justify-between";
-  const navBarBackground = !isTopOfPage && "bg-primary-100 drop-shadow";
+  const navbarBackground = !isTopOfPage && "bg-primary-100 drop-shadow";
 
   return (
     <nav>
       <div
-        className={`${navBarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}
+        className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}
       >
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
