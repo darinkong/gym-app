@@ -18,8 +18,6 @@ const classes: Array<ClassType> = [
   },
   {
     name: "Yoga Classes",
-    description:
-      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id distinctio dolor natus quisquam! Ad expedita ex modi dignissimos, consectetur nulla aliquid veniam hic facilis. Dolores facere aperiam consequatur amet.",
     image: image2,
   },
   {
