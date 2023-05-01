@@ -1,4 +1,3 @@
-import { SelectedPage } from "@/shared/types";
 import Logo from "@/assets/Logo.png";
 
 const Footer = () => {
